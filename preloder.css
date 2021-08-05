@@ -1,0 +1,19 @@
+#loader{
+	border: 0px solid black;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 600px;
+	height: 600px;
+}
+
+#loader img{
+	width: 600px;
+
+}
+#content{
+	display: none;
+}

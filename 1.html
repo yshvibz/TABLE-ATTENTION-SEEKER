@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>resturant friendly</title>
+	<link rel="stylesheet" type="text/css" href="preloder.css">
+	<link rel="stylesheet" type="text/css" href="slider.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="topcat.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	
+	<script src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		window.onload=function () {
+			document.getElementById('loader').style.display = "none";
+			document.getElementById('content').style.display= "block";
+		}
+
+	</script>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div id="loader">
+		<img src="preloader.gif">
+	</div>
+
+<div id="content">
+	<div id="menu">
+		<ul>
+			<li><a href="1.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="drop1"><a href="#">MENU</a>
+				<ul class="drop">
+					<li><a href="order1.html">VEG THALI</a></li>
+					<li><a href="orderc.html">CHAAT</a></li>
+					<li><a href="order.html">ROTI</a></li
+					><li><a href="#">CHINESE</a></li>
+					<li><a href="orders.html">SOUP</a></li>
+					<li><a href="orderp.html">PASTA</a></li>					
+				</ul>
+
+			</li>
+			<li><a href="order.html">ORDER</a></li>
+			<li><a href="#">CALL THE STAFF</a></li>
+		</ul>
+	</div>
+	<div id="outer">
+		<div id="slider">
+			<img src="fast4.jpg">
+			<img src="fast5.jpg">
+			<img src="fast6.jpg">
+			<img src="fast7.jpg">
+			
+
+		</div>
+	</div>
+<br>
+<h1 align="center">TOP FOOD ITEMS</h1>
+
+	<div class="top_cat">
+		<div class="top_cat1"><img src="ch2.jpg">
+			<div>
+				<p class="title"><a href="orderc.html">CHAAT</a></p>
+			</div>
+		</div>
+		<div class="top_cat1"><img src="9.jpg">
+		<div>
+				<p class="title"><a href="order1.html">VEG THALI</a></p>
+			</div>
+		</div>
+		<div class="top_cat1"><img src="fast3.jpg">
+		<div>
+				<p class="title"><a href="#">MOMOS</a></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="top_cat">
+		<div class="top_cat1"><img src="pasta3.jpg">
+		<div>
+				<p class="title"><a href="#">CHINESE</a></p>
+			</div>
+		</div>
+		<div class="top_cat1"><img src="ch5.jpg">
+		<div>
+				<p class="title"><a href="orderp.html">PASTA</a></p>
+			</div>
+		</div>
+		<div class="top_cat1"><img src="s4.jpg">
+		<div>
+				<p class="title"><a href="orders.html">SOUP</a></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="top_cat">
+		<div class="top_cat1"><img src="para4.jpg">
+		<div>
+				<p class="title"><a href="order.html">ROTI</a></p>
+			</div>
+		</div>
+		<div class="top_cat1"><img src="n5.jpg">
+		<div>
+				<p class="title"><a href="ordern.html">NONVEG THALI</a></p>
+			</div>
+		</div>
+		<div class="top_cat1"><img src="pasta8.jpg">
+		<div>
+				<p class="title"><a href="orderp.html">PASTA</a></p>
+			</div>
+		</div>
+
+	</div>
+
+<br><br><br>
+
+	<div class="footer">
+		<div class="f1">
+			<b>Quick link</b>
+			<br><br>
+			home<br>
+			about<br>
+			menu<br>
+			order<br>
+			contact<br>
+		</div>
+		<div class="f1">
+			<b>menu</b>
+			<br><br>
+			home<br>
+			about<br>
+			menu<br>
+			order<br>
+			contact<br>
+		</div>
+		<div class="f1">
+			<b>Adress</b>
+			<br><br>
+			xxxxxxxxx<br>
+			yyyyyyy<br>
+			zzzz<br>
+		</div>
+		<div class="f1">
+			<b>Direction</b>
+			<br><br>
+
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.465440818588!2d74.83950051475719!3d12.877765320414822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a450a6c4b6d%3A0x40c22c142aed071a!2sDeepa%20Plaza%2C%20Jail%20Rd%2C%20Tilak%20Nagar%2C%20Boloor%2C%20Kodailbail%2C%20Mangalore%2C%20Karnataka%20575003!5e0!3m2!1sen!2sin!4v1626720793959!5m2!1sen!2sin" width="300" height=135 style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+			</div>
+
+</div>
+
+
+
+
+
+<script>
+	$('.drop1').click(function()
+	{ 
+		$('.drop').toggleClass('display');
+
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+#outer{
+	width: 1518px;
+	height: 600px;
+	overflow: hidden;
+}
+#slider{
+	position: relative;
+	width: 6072px;
+	animation-name: hey;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+#slider img{
+	display: flex;
+	width: 1518px;
+	float: left;
+}
+@keyframes hey
+{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left: -1518px;
+	}
+	45%{
+		left: -1518px;
+	}
+	50%{
+		left: -3036px;
+	}
+	70%{
+		left: -3036px;
+	}
+	75%{
+		left: -4554px;
+	}
+	95%{
+		left: -4554px;
+	}
+	100%{
+		left: -6072px;
+	}
+}

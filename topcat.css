@@ -1,0 +1,29 @@
+.top_cat{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.top_cat1{
+	border: 0px solid red;
+	width: 370px;
+	height: 250px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4),0 6px 20px 0 rgba(0, 0, 0, 0.35);
+	transition: transform 1s;
+}
+.top_cat1:hover{
+	transform: scale(1.1);
+
+}
+.top_cat1 img{
+	width: 100%;
+}
+.title{
+	text-align: center;
+	font-size: 18px;
+}
+
